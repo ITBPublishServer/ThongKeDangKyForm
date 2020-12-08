@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ThongKeDangKyForm.exe" version="2.1.0.1" publicKeyToken="5a9fff71b2bf32d7" language="vi-VN" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ThongKeDangKyForm" version="2.1.0.1" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ThongKeDangKyForm.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AmonCoding.dll" size="28160">
+      <assemblyIdentity name="AmonCoding" version="2.1.0.0" publicKeyToken="3841038E0F999150" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>f7r7wS7FtViSBziSo/EmuGwQjgMJR2UmhYrajDai8io=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ThongKeDangKyForm.exe" size="227792">
+      <assemblyIdentity name="ThongKeDangKyForm" version="2.1.0.1" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>uji3w5Ko0o29AisW4cJndpoBFIThNTXOtleVS/9uR2I=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Pictures\Background_OnThiMuaCovid.png" size="798248">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XpQtOzFUj9/dyVsa4uf2ivTzXvNdtEGs0Vra16tmUVU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ThongKeDangKyForm.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>eSEJjkfolEEv39DK/g+IzGhJd0CZjqwXxowAEpBp2AM=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-Q9GD575\PC" issuerKeyHash="6b7891693850b922e491c402c7c527bdd615f5c2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>G6NUqIq0+0R9a9vyLcc4jxxjri97INJZuc9IM2wMpAY=</DigestValue></Reference></SignedInfo><SignatureValue>AtVq7k0SFqPfdXrjtKFgKA4dWW6JD0uAtp79NHFas7bZ1/WQ7Dz40X1KFsefUJJCmg4m5FP1YE0BPEsRFPXQ7NyomOmFLzhnXmTQQUR3w8VruhFJ2jCY9X+IvhjdPYV+IxzbFqsUlHymr2CPTWfVRUylknckOmCdaq9lDW/qsjw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uAp+RcHssneLtgJPi2EZ5eDCMn6qtoUgdPyHL879YlqU7A2cf5WzBn5usbgEXNKR9Z1YXhHuQunLeDTyNs8lPmqqK80w987pqYVkVlTDj9/VYExN6Xsnlkvow345nAYyxtxAsXfttBeNEqFplpJ2KsAAcCOZCGyveM9PzUE8FOk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="06a40c6c3348cfb959d2207b2fae631c8f38c72df2db6b7d44fbb48aa854a31b" Description="" Url=""><as:assemblyIdentity name="ThongKeDangKyForm.exe" version="2.1.0.1" publicKeyToken="5a9fff71b2bf32d7" language="vi-VN" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-Q9GD575\PC</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Ih/76eSlzoqcqbcZkLwIFziDjdz8z0Qv7+u4sLiM+Zk=</DigestValue></Reference></SignedInfo><SignatureValue>TefR1uDtFFZ5iqxKxS0JTp9+omMEzTzZwLk6O54qTIvDQvCLQFZff5h95xxWqtlgLwMReEEantpqq1+gbKM1yclc+Z5TCewZOlGwSNNapG/duG3O17JCFvfdyiEZzW35ldQNSab9027xRy2rUtirwL8MuaEFwvDtTlKekaWYksg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uAp+RcHssneLtgJPi2EZ5eDCMn6qtoUgdPyHL879YlqU7A2cf5WzBn5usbgEXNKR9Z1YXhHuQunLeDTyNs8lPmqqK80w987pqYVkVlTDj9/VYExN6Xsnlkvow345nAYyxtxAsXfttBeNEqFplpJ2KsAAcCOZCGyveM9PzUE8FOk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQT4p4zli5YrtDWbNUKnu2rjANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQARABFAFMASwBUAE8AUAAtAFEAOQBHAEQANQA3ADUAXABQAEMwHhcNMjAxMjA4MDQxOTAyWhcNMjExMjA4MTAxOTAyWjAvMS0wKwYDVQQDHiQARABFAFMASwBUAE8AUAAtAFEAOQBHAEQANQA3ADUAXABQAEMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALgKfkXB7LJ3i7YCT4thGeXgwjJ+qraFIHT8hy/O/WJalOwNnH+VswZ+brG4BFzSkfWdWF4R7kLpy3g08jbPJT5qqivNMPfO6amFZFZUw4/f1WBMTel7J5ZL6MN+OZwGMsbcQLF37bQXjRKhaZaSdirAAHAjmQhsr3jPT81BPBTpAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAM7ja5rBw6XWnvhcDN/9AyJJU+JulK+34cNVFgfrYubxCX98pQfG0W4jcD/1JIqc9fLFJWc8vYitpO6VAjlZRvoIHkQVqSsFumJETpem3w/IiRE7UomwqXnVIbCv/SVDOSKMLKssHe7a6I5YBgQEu+x2jnryVs9QK2WPGnbyllD8=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
